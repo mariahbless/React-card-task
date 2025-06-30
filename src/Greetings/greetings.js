@@ -2,7 +2,8 @@ import React from 'react';
 import './greetings.css';
 
 
-function Greet({ name, age, school, address}){
+
+ function Greet({ name, age, school, address}){
     console.log(name, 'name')
     console.log(age, 'age')
     console.log(school, 'school')

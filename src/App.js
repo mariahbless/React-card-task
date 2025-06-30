@@ -1,8 +1,92 @@
 // import logo from './logo.svg';
-// import './App.css';
+// index.js or App.js
+ import 'bootstrap/dist/css/bootstrap.min.css';
+ import './App.css';
+ import { Garage } from "./Garage/Garage";
+ import { Form } from "./Forms/submitform";
+ import { Goal } from './goal/Goal';
+//import './App.css';
 
-// function App() {
+
+function App(){
+  return (
+    <div>
+
+      <div className="container">
+      <h2 className="mt-4 text-danger">Bootstrap in React</h2>
+      <button className="btn btn-primary">Click Me</button>
+      </div>
+
+
+
+    <div className="form">
+      <h1> My Form </h1>
+      <Form/>
+    </div>
+
+    <div className="App">
+       <h1> My cars in the Garage </h1>
+       <Garage/>
+       </div>
+
+    <div className="App">
+       <h1>Learning</h1>
+       <Goal isGoal = {false}/>
+       <Goal isGoal = {true}/>
+    </div>
+
+    </div>
+  
+  );
+};
+  
+
+
+
+
+
+
+ export default App;
+
+
+
+
+// import './App.css';
+ //import Greet from './greetings';
+ //import { Goal } from './goal/Goal';
+
+//function App() { 
+//   const myName= "Mariahbless " 
+ //   const age= 22
+//   const school = "Women's Institute of Technology";
+//   const address = "Bweyogere";
+
+//   const herName= "Melisa Angel"
+//   const herAge= 10
+//   const herSchool = "Shepherd school Lira";
+//   const herAddress = "Lira";
+
+//   const hisName= "Gifty joy"
+//   const hisAge= 20
+//   const hisSchool = "Wisdom high school";
+//   const hisAddress = "Gulu city East";
+
+
+
 //   return (
+//     <div className='App'>
+//       <h1>My greetings card to my friends</h1>
+//       <Greet name = {myName} age={22} school = {school} address={address}/>
+//       <Greet name = {herName} age={10} school={herSchool} address= {herAddress}/>
+//       <Greet name = {hisName} age={20} school={hisSchool} address= {hisAddress}/>
+      
+//     </div>
+//   );
+// }
+
+// export default App;
+// function App() { 
+ //   return (
 //     <div className="App">
 //       <header className="App-header">
 //         <img src={logo} className="App-logo" alt="logo" />
@@ -20,38 +104,4 @@
 //       </header>
 //     </div>
 //   );
-// }
-
-// export default App;
-import './App.css';
-import Greet from './greetings';
-
-function App() {
-  const myName= "Mariahbless "
-  const age= 22
-  const school = "Women's Institute of Technology";
-  const address = "Bweyogere";
-
-  const herName= "Melisa Angel"
-  const herAge= 10
-  const herSchool = "Shepherd school Lira";
-  const herAddress = "Lira";
-
-  const hisName= "Gifty joy"
-  const hisAge= 20
-  const hisSchool = "Wisdom high school";
-  const hisAddress = "Gulu city East";
-
-
-
-  return (
-    <div className='App'>
-      <h1>My greetings card to my friends</h1>
-      <Greet name = {myName} age={22} school = {school} address={address}/>
-      <Greet name = {herName} age={10} school={herSchool} address= {herAddress}/>
-      <Greet name = {hisName} age={20} school={hisSchool} address= {hisAddress}/>
-    </div>
-  );
-}
-
-export default App;
+// } 
