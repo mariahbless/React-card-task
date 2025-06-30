@@ -1,0 +1,22 @@
+li{
+    text-align: left;
+    color: #da7d7d;
+    font-style: italic;
+}
+h1{
+    text-align: left;
+    text-decoration: double;
+}
+
+.ball{
+
+    text-align: left;
+    
+}
+h4{
+    text-align: left;
+    text-decoration: double;
+}
+body{
+    background-color: lightgray;
+}

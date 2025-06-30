@@ -9,10 +9,11 @@ function Form() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    alert(`The name you entered was: ${name}`)
+    alert(`Thanks for entering  ${name} 's name`)
   }
 
   return (
+    
     <form onSubmit={handleSubmit}>
       <label>Enter your Firstname:
         <input type="text" value={name} onChange={(e) => setName(e.target.value)}/>

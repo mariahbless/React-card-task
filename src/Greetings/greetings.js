@@ -10,7 +10,7 @@ import './greetings.css';
     console.log(address, 'address')
     return(
         <div className='greeting_cards'>
-            <h1> Hi there! my name is {name}</h1>
+            <h3> Hi there! my name is {name}</h3>
             <p>I am {age} years old</p>
             <p>I am studying from  {school}</p>
             <p>My residence is {address}</p>

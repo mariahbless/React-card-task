@@ -1,44 +1,97 @@
 // import logo from './logo.svg';
-// index.js or App.js
- import 'bootstrap/dist/css/bootstrap.min.css';
- import './App.css';
- import { Garage } from "./Garage/Garage";
- import { Form } from "./Forms/submitform";
- import { Goal } from './goal/Goal';
-//import './App.css';
+ //index.js or App.js
+  import 'bootstrap/dist/css/bootstrap.min.css';
+  import './App.css';
+  import { Garage } from "./Garage/Garage";
+  import { Form } from "./Forms/submitform";
+  import { Goal } from './goal/Goal';
+  import Greet from './Greetings/greetings';
+
+function App() {
+   const myName= "Mariahbless " 
+   const age= 22
+   const school = "Women's Institute of Technology";
+   const address = "Bweyogere";
+
+   const herName= "Melisa Angel"
+   const herAge= 10
+   const herSchool = "Shepherd school Lira";
+   const herAddress = "Lira";
+
+   const hisName= "Gifty joy"
+   const hisAge= 20
+   const hisSchool = "Wisdom high school";
+   const hisAddress = "Gulu city ";
 
 
-function App(){
+
   return (
     <div>
-
-      <div className="container">
-      <h2 className="mt-4 text-danger">Bootstrap in React</h2>
-      <button className="btn btn-primary">Click Me</button>
-      </div>
-
-
-
-    <div className="form">
-      <h1> My Form </h1>
-      <Form/>
+    <div className='App'>
+      <h1>This is my Greetings Card</h1>
+      <Greet name = {myName} age={22} school = {school} address={address}/>
+      <Greet name = {herName} age={24} school={herSchool} address= {herAddress}/>
+      <Greet name = {hisName} age={28} school={hisSchool} address= {hisAddress}/>
     </div>
 
-    <div className="App">
-       <h1> My cars in the Garage </h1>
-       <Garage/>
-       </div>
-
-    <div className="App">
-       <h1>Learning</h1>
-       <Goal isGoal = {false}/>
-       <Goal isGoal = {true}/>
+  <div className="container">
+    <h2 className="mt-4 text-danger">This a form with submission button</h2>
     </div>
 
+   <div className="form">
+    <h1> My Form </h1>
+    <Form/>
     </div>
-  
+
+   <div className="car">
+    <h1> My cars in the Garage </h1>
+    <Garage/>
+    </div>
+   
+   <div className="ball">
+    <h4>Goal scored in the match</h4>
+    <Goal isGoal = {false}/>
+    <Goal isGoal = {true}/>
+    </div>
+
+
+    </div>
   );
-};
+}
+
+export default App;
+
+// function App(){
+//   return (
+//     <div>
+
+//       <div className="container">
+//       <h2 className="mt-4 text-danger">My Activities of react</h2>
+//       <button className="btn btn-primary">click</button>
+//       </div>
+
+
+
+//     <div className="form">
+//       <h1> My Form </h1>
+//       <Form/>
+//     </div>
+
+//     <div className="App">
+//        <h1> My cars in the Garage </h1>
+//        <Garage/>
+//        </div>
+
+//     <div className="App">
+//        <h1>Learning</h1>
+//        <Goal isGoal = {false}/>
+//        <Goal isGoal = {true}/>
+//     </div>
+
+//     </div>
+  
+//   );
+// };
   
 
 
@@ -46,7 +99,7 @@ function App(){
 
 
 
- export default App;
+
 
 
 
