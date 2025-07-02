@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
 import './garage.css'
 
  export function Car(props) {
@@ -24,7 +23,7 @@ import './garage.css'
   );
 }
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<Garage />);
+
+
 
               
