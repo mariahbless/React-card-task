@@ -1,0 +1,8 @@
+ .myphoto{
+    height: 100px;
+    width: 100px;
+    clip-path: circle(50% at 50% 50%);
+    object-fit:cover;
+    align-items: center;
+    text-align: center;
+}
