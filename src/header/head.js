@@ -18,8 +18,8 @@ import myPhoto from '../assets/1000005666.jpg';
 function Pic() {
   return (
     <div>
-      <h1>Welcome to My Website</h1>
-      <img src={myPhoto} alt="My photo" width="300" height="350"/>
+      <h1>Welcome to My Garage, Have A seat</h1>
+      <img src={myPhoto} alt="My" width="600" height="450"/>
     </div>
   );
 }

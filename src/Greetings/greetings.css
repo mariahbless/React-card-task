@@ -9,4 +9,11 @@
     background-color: lightpink;
     border-radius: 10px;
     display: block;
+    margin-left: 10px;
+}
+h1{
+    text-align: left;
+    text-decoration:double;
+    text-shadow: black 2px 2px;
+    color: aliceblue;
 }

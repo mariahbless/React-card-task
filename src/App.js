@@ -31,15 +31,21 @@ function App() {
 
   return (
     <div>
+      <div className="heads">
+    <Headers/>
+   </div>
+   <div className="picture">
+    <Pic/>
+    </div>
     <div className='App'>
-      <h1>This is my Greetings Card</h1>
+      <h1>Client's Greetings Card</h1>
       <Greet name = {myName} age={age} school = {school} address={address}/>
       <Greet name = {herName} age={herAge} school={herSchool} address= {herAddress}/>
       <Greet name = {hisName} age={hisAge} school={hisSchool} address= {hisAddress}/>
     </div>
 
   <div className="container">
-    <h2 className="mt-4 text-danger">This a form with submission button</h2>
+    <h2 className="mt-4 text-danger">Client's submission Form</h2>
     </div>
 
    <div className="form">
@@ -48,7 +54,7 @@ function App() {
     </div>
 
    <div className="car">
-    <h1> My cars in the Garage </h1>
+    <h1>  </h1>
     <Garage/>
     </div>
    
@@ -59,23 +65,14 @@ function App() {
     </div>
 
    <div className="form1">
-    <h1> Reigistration form </h1>
+    <h1> Client's Reg Form </h1>
     <MyForm/>
     </div>
 
-    {/* <div className="forms">
-    <h1> My Footer </h1>
-    <Header/>
-    </div> */}
-   <div className="heads">
-    <Headers/>
-   </div>
+    
 
    
-    <div className="picture">
-    <Pic/>
-    </div>
-
+    
 
 
 

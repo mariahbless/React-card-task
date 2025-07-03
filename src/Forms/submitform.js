@@ -15,7 +15,7 @@ function Form() {
   return (
     
     <form onSubmit={handleSubmit}>
-      <label>Enter your Firstname:
+      <label>Enter your Car Name:
         <input type="text" value={name} onChange={(e) => setName(e.target.value)}/>
       </label> <br/><br/>
        <input type="submit" />
